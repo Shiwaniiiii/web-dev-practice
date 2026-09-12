@@ -1,0 +1,9 @@
+<h1> My Project Manager </h1>
+<input type="text" id="projectInput" placeholder="Type here...">
+<button onclick="saveData()">Save to Database</button>
+<script>
+    function saveData() {
+        var data = document.getElementById("projectInput").value;
+        alert("Connecting to Java Backend... Sending: " + data);
+    }
+</script>
